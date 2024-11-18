@@ -26602,7 +26602,7 @@ Generation = 1
 Evolutions = XICOATL,Level,36
 #-------------------------------
 [XICOATL]
-FormName = Xicoatl
+Name = Xicoatl
 Types = FIRE,DRAGON
 BaseStats = 78,84,78,100,109,85
 GenderRatio = FemaleOneEighth
@@ -26625,3 +26625,55 @@ Habitat = Mountain
 Category = Cobra
 Pokedex = A Xicoatl no longer glows with borrowed power, they have now evolved enough to generate their own flames. They are fiercely protective of the next generation.
 Generation = 0
+#--------------------------------
+[ROORAT]
+Name = Roorat
+Types = NORMAL
+BaseStats = 60,70,50,85,50,50
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 100
+EVs = SPEED,1
+CatchRate = 120
+Happiness = 70
+Abilities = RUNAWAY,HUSTLE
+HiddenAbilities = SCRAPPY
+Moves = 1,TACKLE,1,GROWL,5,QUICKATTACK,10,DOUBLETEAM,14,BITE,18,HEADBUTT,23,AGILITY,28,TAKEDOWN,34,UPROAR,40,DOUBLEEDGE,46,HYPERVOICE
+TutorMoves = ATTRACT,CONFIDE,COVET,DOUBLEEDGE,DOUBLETEAM,ECHOEDVOICE,ENDURE,FACADE,FRUSTRATION,HEADBUTT,HIDDENPOWER,HYPERVOICE,LASTRESORT,MIMIC,NATURALGIFT,PROTECT,REST,RETURN,ROUND,SLEEPTALK,SNORE,SUBSTITUTE,SWAGGER,SWIFT,THIEF,UPROAR,WORKUP
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.6
+Weight = 12.0
+Color = Brown
+Shape = Quadruped
+Habitat = Grassland
+Category = Quick Rat
+Pokedex = Roorat can cover great distances quickly with its hopping movement. It is always alert and watching for predators.
+Generation = 0
+Evolutions = SOCKAROO,Level,25
+#----------------------------------
+[SOCKAROO]
+Name = Sockaroo
+Types = NORMAL,FIGHTING
+BaseStats = 85,105,70,95,55,65 # HP, Attack, Defense, Speed, Sp. Attack, Sp. Defense
+GenderRatio = Female50Percent
+GrowthRate = Medium
+BaseExp = 180
+EVs = ATTACK,2
+CatchRate = 75
+Happiness = 70
+Abilities = HUSTLE,INNERFOCUS
+HiddenAbilities = HUGEPOWER
+Moves = 1,TACKLE,1,GROWL,1,QUICKATTACK,1,DOUBLETEAM,10,BITE,15,HEADBUTT,20,AGILITY,26,TAKEDOWN,32,LOWKICK,38,BULKUP,45,RAGEFIST,52,HIGHJUMPKICK,60,CLOSECOMBAT
+TutorMoves = ATTRACT,BRICKBREAK,BULKUP,CONFIDE,COUNTER,DOUBLEEDGE,DOUBLETEAM,EARTHQUAKE,ENDURE,FACADE,FIREPUNCH,FOCUSPUNCH,FRUSTRATION,HEADBUTT,HIDDENPOWER,HYPERVOICE,IRONTAIL,LASTRESORT,MIMIC,NATURALGIFT,POWERUPPUNCH,PROTECT,REST,RETURN,ROCKSLIDE,ROCKSMASH,ROUND,SLEEPTALK,SNORE,SUBSTITUTE,SWAGGER,SWIFT,THUNDERPUNCH,UPROAR,WORKUP
+EggGroups = Field
+HatchSteps = 3840
+Height = 1.2
+Weight = 32.5
+Color = Brown
+Shape = Bipedal
+Habitat = Grassland
+Category = Agile Fighter
+Pokedex = Sockaroo fights using its powerful legs and tail. It moves so fast that it can deliver multiple kicks before its opponent can react.
+Generation = 0
+#-------------------------------------
